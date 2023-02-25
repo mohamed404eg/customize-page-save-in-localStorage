@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+overflow-x: hidden;
+
+}
+#customize {
+    height: 300px;
+    background-color: cornflowerblue;
+    max-width: 250px;
+    border-radius: 5px;
+    transition: 400ms ease-in-out;
+    padding-right: 10px;
+    font-size: 15px;
+
+}
+
+.customize {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction:column;
+    padding-left: 4px;
+    
+}
+
+.icon {
+    margin-left: 5px;
+    color: #6495ED;
+    cursor: pointer;
+    display: inline;
+}
+
+.clos {
+    transform: translate(-200%);
+    transition: 400ms ease-in-out;
+}
+.color {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.color-p {
+    color: #fff;
+    margin-left: 6px;
+    text-transform: uppercase;
+}
+
+.color button {
+    border: none;
+    border-radius: 5px;
+}
+
+.color-red {
+background-color: red;
+color: #fff;
+}
+
+.color-AntiqueWhite {
+background-color: #FAEBD7;
+}
+.color-AliceBlue{
+background-color: #F0F8FF;
+}
+.color-Aqua{
+background-color: #00FFFF;
+}
+
+
+
+
+
+/* font size */
+
+.fontSize  {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.fontSize-p {
+    color: #fff;
+    margin-left: 6px;
+    text-transform: uppercase;
+}
+
+.fontSize button {
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* background  */
+.background  {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.background-p {
+    color: #fff;
+    margin-left: 6px;
+    text-transform: uppercase;
+}
+
+.background button {
+    border: none;
+    border-radius: 5px;
+}
+
+.rest {
+    font-size: 20px;
+    margin-top: 7px;
+    text-transform: uppercase;
+    border: 1px solid ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.color-red-b {
+    background-color: red;
+    color: #fff;
+    }
+    
+    .color-AntiqueWhite-b {
+    background-color: #FAEBD7;
+    }
+    .color-AliceBlue-b{
+    background-color: #F0F8FF;
+    }
+    .color-Aqua-b{
+    background-color: #00FFFF;
+    }
+    
